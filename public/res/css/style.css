@@ -1,0 +1,176 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    margin: 0;
+}
+/* general styling */
+a 
+{
+    text-decoration: none;
+    color: #636b6f;
+}
+ul li
+{
+    list-style: none;
+}
+/* welcome page styling */
+.main_container
+{
+    width: auto;
+    height: auto;
+    padding: 5px;
+    margin-top: 115px;
+
+}
+.nav_container 
+{
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.nav_bar 
+{
+    width: 98%;
+    height: 110px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo_container 
+{
+    height: auto;
+    width: 18%;
+    padding: 1%;
+    margin: 1%;
+}
+.nav_logo 
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+
+}
+.nav_ul 
+{
+    width: 58%;
+    height: 90px;
+    padding: 1%;
+    margin:1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.nav_anchor 
+{
+    margin: 5px;
+    height: auto;
+    width: auto;
+    font-size: 25px;
+    transition: .3s ease-in;
+    border: none;
+    outline: none;
+}
+.nav_anchor:active,
+.nav_anchor:focus
+{
+    border-bottom: 1px solid #5E196D; 
+}
+.nav_anchor li 
+{
+    height: 60px;
+    color:  #BD73C9;
+    transition: .3s ease-in;
+    border: none;
+}
+.nav_anchor li:hover
+{
+  margin-top: -10px;
+  border-bottom: 1px solid #5E196D;
+}
+.social_links 
+{
+    height: 90px;
+    width: 18%;
+    padding: 1%;
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.link_img_div 
+{
+    height: auto;
+    width: 8.5%;
+    padding: 1.25%;
+    margin: 1.25%;
+}
+.link_img 
+{
+    height: 20px;
+    width: 20px;
+    opacity: .7;
+}
+.link_img:hover 
+{
+    opacity: 1;
+
+}
+/* css for welcome template*/
+.banner 
+{
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+    height: auto;
+}
+.banner_text 
+{
+    width: auto;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner_text h1 
+{
+    color: #BD73C9;
+    margin: 30px;
+    margin-bottom: 10px;
+    font-size: 150px;
+    font-weight: normal;
+}
+.banner_img 
+{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner_img img 
+{
+    height: 600px;
+    width: 700px;
+}
+.welcome_text 
+{
+    width: 50%;
+    color: #9431A0;
+    font-size: 20px;
+}
+.welcome_author 
+{
+    color: #372342;
+    font-size: 16px;
+}
