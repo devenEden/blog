@@ -171,10 +171,40 @@ ul li
     width: inherit;
     position: inherit;
 }
+.footer_text
+{
+    position: relative;
+    height: 170px;
+    text-align: center;
+    color: #65557F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+}
+.footer_text h1 
+{
+    margin: 0;
+}
+.footer_ref 
+{
+    padding: 20px;
+    text-align: center;
+}
+.blog_email 
+{
+    color: #BD73C9;
+}
+.footer_links 
+{
+    display: flex;
+    justify-content: center;
+}
 /* css for welcome template*/
 .banner 
 {
-    position: absolute;
+    position: relative;
     width: 95%;
     margin: 10px;
     padding: 10px;
@@ -248,4 +278,18 @@ ul li
 {
     color: lightgray;
     font-size: 16px;
+}
+.home_text_div 
+{
+   width: 100%;
+   height: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin: 10px 0;
+}
+.home_text 
+{
+    width: 60%;
 }

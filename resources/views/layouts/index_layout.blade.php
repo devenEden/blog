@@ -16,6 +16,11 @@
     <body>
      <div class="main_container">
          <div class="background">
+
+         <div class="background_image">
+            <img src="/res/images/background.jpg" alt="">
+         </div>
+        </div>
          <div class="nav_container">
           <nav class="nav_bar">
             <div class="logo_container"> 
@@ -51,11 +56,46 @@
             </div>
           </nav>
          </div>
-         <div class="background_image">
-            <img src="/res/images/background.jpg" alt="">
-         </div>
-        </div>
         @yield('content')
      </div>
+     <footer class="footer">
+         <div class="footer_text">
+            <h1>Love yourself</h1>
+         </div>
+         <div class="footer_ref">
+            <p class="message">Copyright (c) 2020 Copyright Holder All Rights Reserved.</p>
+            <br>
+            <p class="message">
+                Feel free to contact any time 
+                <span class="blog_email">
+                    self_sarang@gmail.com
+                </span>
+            </p>
+            <div class="footer_links">
+                <div class="social_links">
+                    <div class="link_img_div">
+                        <a href="#">
+                            <img src="/res/images/blog_facebook.png" alt="" class="link_img">
+                        </a>
+                    </div>
+                    <div class="link_img_div">
+                        <a href="#">
+                            <img src="/res/images/blog_instagram.png" alt="" class="link_img">
+                        </a>
+                    </div>
+                    <div class="link_img_div">
+                        <a href="#">
+                            <img src="/res/images/blog_twitter.png" alt="" class="link_img">
+                        </a>
+                    </div>
+                    <div class="link_img_div">
+                        <a href="#">
+                            <img src="/res/images/blog_whatsapp.jpeg" alt="" class="link_img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+         </div>
+     </footer>
     </body>
     </html>

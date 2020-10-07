@@ -26,6 +26,12 @@
                 <div class="banner_img">
                     <img src="/res/images/banner_img.jpg" alt="">
                 </div>
+                <div class="home_text_div">
+                    <p class="home_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus consectetur mollitia, non excepturi eum voluptatum quisquam ad voluptate debitis atque. Optio ipsam voluptates beatae dolores dolore iure a nobis minus.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus consectetur mollitia, non excepturi eum voluptatum quisquam ad voluptate debitis atque. Optio ipsam voluptates beatae dolores dolore iure a nobis minus. 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus consectetur mollitia, non excepturi eum voluptatum quisquam ad voluptate debitis atque. Optio ipsam voluptates beatae dolores dolore iure a nobis minus. 
+                    </p>
+                </div>
             </div>
         </div>
     @endsection
