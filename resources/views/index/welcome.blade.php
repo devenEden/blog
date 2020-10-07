@@ -31,7 +31,8 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus consectetur mollitia, non excepturi eum voluptatum quisquam ad voluptate debitis atque. Optio ipsam voluptates beatae dolores dolore iure a nobis minus. 
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus consectetur mollitia, non excepturi eum voluptatum quisquam ad voluptate debitis atque. Optio ipsam voluptates beatae dolores dolore iure a nobis minus. 
                     </p>
-                </div>
+                   {{-- footer_links --}}
+                </div> 
             </div>
         </div>
     @endsection
