@@ -14,6 +14,7 @@
     </head>
     <body>
      <div class="main_container">
+         <div class="background">
          <div class="nav_container">
           <nav class="nav_bar">
             <div class="logo_container"> 
@@ -49,6 +50,10 @@
             </div>
           </nav>
          </div>
+         <div class="background_image">
+            <img src="/res/images/background.jpg" alt="">
+         </div>
+        </div>
         @yield('content')
      </div>
     </body>
