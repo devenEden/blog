@@ -1,0 +1,157 @@
+@media screen and  (max-width: 900px) 
+{
+    .hamburger
+    {
+        display: block;
+    }  
+    .nav_bar 
+    {
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    .nav_ul 
+    {
+    flex-direction: column;
+    width: auto;
+    width: 50%;
+    margin: 10px;
+    height: auto;
+    background-color: #ebebeb;
+    color: purple;
+    margin-bottom: 0;
+    margin-left: -300px;
+    border-radius: 5px 5px 0 0;
+    display: none;
+    transition: 5s ease-in;
+    }
+    .nav_anchor 
+    {
+        font-size: 20px;
+    }
+    .nav_anchor li 
+    {
+        color: purple;
+        height: 40px;
+
+    }
+    .nav_anchor li:hover 
+    {
+        letter-spacing: 2px;
+        margin-left: 5px;
+        margin-top: auto;
+    }
+    .social_links 
+    {
+        width: 50%;
+        margin: 10px;
+        height: auto;
+        position: relative;
+        background-color: #ebebeb;
+        margin-top: 0;
+        margin-left: -10px;
+        border-radius: 0 0 5px 5px;
+        display: none;
+        transition: 5s ease-in;
+    }
+    .nav_slide_in 
+    {
+      margin-left: 0px;
+
+      display: block;
+      animation: slide_in .3s ease-in  1 ;
+    }
+    @keyframes slide_in {
+        0%
+        {
+            margin-left: -100px;
+        }
+        20%
+        {
+            margin-left: -80px;
+        }
+        40%  
+        {
+            margin-left: -60px;  
+        }
+        60%  
+        {
+            margin-left: -40px;  
+        }
+        80%  
+        {
+            margin-left: -20px;  
+        }
+        100%  
+        {
+            margin-left: 0px;  
+        }
+    }
+  
+}
+@media screen and  (max-width: 400px)
+{
+    .link_img_div 
+    {
+        width: auto;
+        margin: 5px;
+    }
+}
+@media screen and  (max-width: 800px)
+{
+    .background 
+    {
+        height: 95vh;
+    }
+    .banner 
+    {
+
+    margin-top: -30px;
+    }
+    .banner_text h1 
+    {
+        font-size: 80px;
+    width: 95%;
+    }
+    .welcome_text 
+    {
+    margin: 0;
+    font-size: 16px;
+    }
+    .banner_img img  
+    {
+        width: 95%;
+    }
+    .home_text 
+    {
+        width: 95%;
+    }
+    .footer_text h1
+    {
+        font-size: 50px;
+    }
+}
+@media screen and  (max-width: 520px)  
+{
+  body 
+  {
+      overflow-x: hidden;
+  }
+  .banner 
+  {
+    margin-left: 0;
+  }
+  .banner_text h1 
+  {
+    font-size: 50px;
+    margin: 10px 0;
+  }
+  .welcome_text 
+  {
+    width: 80%;
+  }
+  .banner_img img 
+  {
+    height: 500px;
+  }
+}

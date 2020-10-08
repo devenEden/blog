@@ -12,6 +12,7 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="/res/css/style.css">
+        <link rel="stylesheet" href="/res/css/responsive.css">
     </head>
     <body>
      <div class="main_container">
@@ -23,16 +24,21 @@
         </div>
          <div class="nav_container">
           <nav class="nav_bar">
+              <div onclick="nav_display()" class="hamburger"> 
+                  <div class="line"></div>
+                  <div class="line"></div>
+                  <div class="line"></div>
+              </div>
             <div class="logo_container"> 
                 <img class="nav_logo" src="/res/images/blog_logo.jpg" alt="logo"> 
             </div>
-            <ul class="nav_ul">
+            <ul id="nav_ul" class="nav_ul">
                 <a href="#" class="nav_anchor"> <li>Home</li> </a>
                 <a href="#" class="nav_anchor"> <li>About</li> </a>
                 <a href="#" class="nav_anchor"> <li>Activity</li> </a>
                 <a href="#" class="nav_anchor"> <li>Sign Up</li> </a>
             </ul>
-            <div class="social_links">
+            <div id="links" class="social_links">
                 <div class="link_img_div">
                     <a href="#">
                         <img src="/res/images/blog_facebook.png" alt="" class="link_img">
@@ -58,6 +64,9 @@
          </div>
         @yield('content')
      </div>
+     <div onclick="scroll_top()" id="scroll_top" class="scroll_top">
+         <span>↑</span>
+     </div>
      <footer class="footer">
          <div class="footer_text">
             <h1>Love yourself</h1>
@@ -68,7 +77,7 @@
             <p class="message">
                 Feel free to contact any time 
                 <span class="blog_email">
-                    self_sarang@gmail.com
+                    jirehserukenya25@gmail.com
                 </span>
             </p>
             <div class="footer_links">
@@ -97,5 +106,6 @@
             </div>
          </div>
      </footer>
+     <script src="/res/js/main.js"></script>
     </body>
     </html>
