@@ -222,11 +222,6 @@ ul li
     width: 95%;
     margin: 10px 0;
 }
-.hamburger:hover 
-{
-  border: 1px solid #ebebeb
-
-}
 .scroll_top 
 {
     position: fixed;

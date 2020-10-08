@@ -18,5 +18,4 @@ window.addEventListener('scroll', () =>
 {
 
     scroll.classList.toggle('scroll_active', window.scrollY > 200);
-    console.log(window.scrollY);
 });

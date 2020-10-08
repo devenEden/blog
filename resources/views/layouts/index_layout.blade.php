@@ -34,8 +34,8 @@
             </div>
             <ul id="nav_ul" class="nav_ul">
                 <a href="#" class="nav_anchor"> <li>Home</li> </a>
+                <a href="#" class="nav_anchor"> <li>Blogs</li> </a>
                 <a href="#" class="nav_anchor"> <li>About</li> </a>
-                <a href="#" class="nav_anchor"> <li>Activity</li> </a>
                 <a href="#" class="nav_anchor"> <li>Sign Up</li> </a>
             </ul>
             <div id="links" class="social_links">
