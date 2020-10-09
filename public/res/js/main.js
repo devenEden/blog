@@ -17,5 +17,5 @@ function scroll_top()
 window.addEventListener('scroll', () => 
 {
 
-    scroll.classList.toggle('scroll_active', window.scrollY > 200);
+    scroll.classList.toggle('scroll_active', window.scrollY > 180);
 });

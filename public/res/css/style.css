@@ -239,15 +239,22 @@ ul li
     align-items: center;
     justify-content: center;
     font-size: 40px;
-    transition: 5s ease-in;
     cursor: pointer;
     top: 10px;
     display: none;
+    outline: none;
+    transition: .5s ease-in;
 }
 .scroll_active 
 {
+    transition: .5s ease-in;
     display: block;
     top: 500px;
+}
+.scroll_active:hover
+{
+   background-color: #5E196D;
+   color: #fff;
 }
 /* css for welcome template*/
 .banner 
@@ -341,3 +348,123 @@ ul li
 {
     width: 60%;
 }
+.blog_topics
+{
+    width: 95%;
+    height: auto;
+    padding: 1%;
+    margin: 1%;
+}
+.blog_topics h3 
+{
+    height: auto;
+    text-align: center;
+    color: #BD73C9;
+}
+.topics 
+{
+    width: inherit;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+.topic 
+{
+    width: 30%;
+    margin: 1%;
+    text-align: center;
+    color: #65557F;
+    padding: 1%;
+    transition: .5s ease;
+    cursor: default;
+}
+.topic:hover 
+{
+    box-shadow: 5px 5px 10px 10px #c7a1d1f5;
+    font-weight: bold;
+}
+.img_message_div 
+{
+    height: auto;
+    width: 95%;
+    margin: 1%;
+    padding: 1%;
+}
+.img_msg 
+{
+   width: inherit;
+   display: flex;
+   flex-direction: row;
+   transition: .3s ease-in;
+   cursor: default;
+}
+.img_msg:hover 
+{
+    box-shadow: 5px 5px 10px 10px #c7a1d1f5;  
+}
+.img
+{
+  width: 50%;
+  height: auto;
+}
+.img img
+{
+    width: 95%;
+    margin: 2%;
+    height: 400px;
+}
+.msg 
+{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.about_div
+{
+    color: #fff;
+    width: 95%;
+    padding: 1%;
+    margin: 1%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about h3 
+{
+   font-size: 30px;
+}
+.about 
+{
+    margin: 30px;
+    margin-top: 0;
+    width: 80%;
+    text-align: center;
+}
+.author 
+{
+    color: #636b6f;
+    width: 80%;
+    margin: 40px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.author_img 
+{
+    width: 38%;
+    margin: 1%;
+}
+.author_img img 
+{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
