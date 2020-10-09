@@ -25,7 +25,9 @@
          <div class="nav_container">
           <nav class="nav_bar">
               <div id="hamburger" onclick="open_nav()" class="hamburger"> 
-                  &#9776;
+                  <div class="line"></div>
+                  <div class="line"></div>
+                  <div class="line"></div>
               </div>
             <div class="logo_container"> 
                 <img class="nav_logo" src="/res/images/blog_logo.jpg" alt="logo"> 
