@@ -24,15 +24,14 @@
         </div>
          <div class="nav_container">
           <nav class="nav_bar">
-              <div onclick="nav_display()" class="hamburger"> 
-                  <div class="line"></div>
-                  <div class="line"></div>
-                  <div class="line"></div>
+              <div id="hamburger" onclick="open_nav()" class="hamburger"> 
+                  &#9776;
               </div>
             <div class="logo_container"> 
                 <img class="nav_logo" src="/res/images/blog_logo.jpg" alt="logo"> 
             </div>
             <ul id="nav_ul" class="nav_ul">
+                <li id="close_nav" onclick="close_nav()" class="close_nav">&times;</li>
                 <a href="/" class="nav_anchor"> <li>Home</li> </a>
                 {{-- <a href="/blogs" class="nav_anchor"> <li>Blogs</li> </a> --}}
                 <a href="/about" class="nav_anchor"> <li>About</li> </a>

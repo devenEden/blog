@@ -14,26 +14,26 @@
     {
     flex-direction: column;
     width: auto;
-    width: 50%;
+    width: 0;
     margin: 10px;
     height: auto;
-    background-color: #ebebeb;
+    background-color: #fff;
     color: purple;
     margin-bottom: 0;
-    margin-left: -300px;
+    margin-left: -10px;
     border-radius: 5px 5px 0 0;
-    display: none;
-    transition: 5s ease-in;
+    transition: .5s ease-in;
     }
     .nav_anchor 
     {
         font-size: 20px;
+        width: 90%;
+        display: none;
     }
     .nav_anchor li 
     {
         color: purple;
         height: 40px;
-
     }
     .nav_anchor li:hover 
     {
@@ -43,16 +43,19 @@
     }
     .social_links 
     {
-        width: 50%;
+        width: 0;
         margin: 10px;
         height: auto;
         position: relative;
-        background-color: #ebebeb;
+        background-color: #fff;
         margin-top: 0;
         margin-left: -10px;
         border-radius: 0 0 5px 5px;
+        transition: .5s ease-in;
+    }
+    .link_img_div 
+    {
         display: none;
-        transition: 5s ease-in;
     }
     .nav_slide_in 
     {
