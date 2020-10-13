@@ -13,7 +13,7 @@
     <div class="about">
         <h3>about self_sarang</h3>
     <p  class="about_text">
-        I started this page because i felt like the message of self love and importance of mental health are not emphasised enough. Especially in a country like mine where depression is a "white people problem" and when someone tells people off for making fun of the way he/she look, they are called "dramatic and defensive". 
+        I started this page because i felt like the message of self love and importance of mental health are not emphasised enough. Especially in a country like mine where depression is a "white people problem" and when someone tells people off for making fun of the way he/she looks, they are called "dramatic and defensive". 
     </p>
     </div>
       <div class="author">
