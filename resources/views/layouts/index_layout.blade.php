@@ -40,17 +40,17 @@
                 {{-- <a href="/sign_in" class="nav_anchor"> <li>Sign Up</li> </a> --}}
             </ul>
             <div id="links" class="social_links">
-                <div class="link_img_div">
+                {{-- <div class="link_img_div">
                     <a href="#">
                         <img src="/res/images/blog_facebook.png" alt="" class="link_img">
                     </a>
-                </div>
+                </div> --}}
                 <div class="link_img_div">
-                    <a href="#">
+                    <a target="blank" href="https://www.instagram.com/self_sarang/">
                         <img src="/res/images/blog_instagram.png" alt="" class="link_img">
                     </a>
                 </div>
-                <div class="link_img_div">
+                {{-- <div class="link_img_div">
                     <a href="#">
                         <img src="/res/images/blog_twitter.png" alt="" class="link_img">
                     </a>
@@ -59,7 +59,7 @@
                     <a href="#">
                         <img src="/res/images/blog_whatsapp.jpeg" alt="" class="link_img">
                     </a>
-                </div>
+                </div> --}}
             </div>
           </nav>
          </div>
@@ -83,17 +83,17 @@
             </p>
             <div class="footer_links">
                 <div class="social_links">
-                    <div class="link_img_div">
+                   {{--  <div class="link_img_div">
                         <a href="#">
                             <img src="/res/images/blog_facebook.png" alt="" class="link_img">
                         </a>
-                    </div>
+                    </div> --}}
                     <div class="link_img_div">
-                        <a href="#">
+                        <a target="blank" href="https://www.instagram.com/self_sarang/">
                             <img src="/res/images/blog_instagram.png" alt="" class="link_img">
                         </a>
                     </div>
-                    <div class="link_img_div">
+                    {{-- <div class="link_img_div">
                         <a href="#">
                             <img src="/res/images/blog_twitter.png" alt="" class="link_img">
                         </a>
@@ -102,7 +102,7 @@
                         <a href="#">
                             <img src="/res/images/blog_whatsapp.jpeg" alt="" class="link_img">
                         </a>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
          </div>

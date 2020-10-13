@@ -13,7 +13,7 @@
     <div class="about">
         <h3>about self_sarang</h3>
     <p  class="about_text">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas asperiores debitis commodi iste deleniti placeat consequuntur quasi dolor excepturi, vitae sit quae. Odit voluptates in distinctio soluta nobis nostrum earum! Lorem ipsum dolor sit amet consectetur adipisicing elit. A molestiae blanditiis nam sunt ullam dolore laboriosam, est ipsa numquam praesentium quasi fugit reprehenderit fugiat quod mollitia eum iusto sint nostrum Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat maxime inventore quo delectus nesciunt natus, dicta soluta placeat et necessitatibus debitis ipsum voluptate asperiores molestiae, beatae ipsa amet pariatur possimus!
+        I started this page because i felt like the message of self love and importance of mental health are not emphasised enough. Especially in a country like mine where depression is a "white people problem" and when someone tells people off for making fun of the way he/she look, they are called "dramatic and defensive". 
     </p>
     </div>
       <div class="author">
@@ -24,7 +24,7 @@
 
             <h1>Jireh Serukenya</h1>
          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas asperiores debitis commodi iste deleniti placeat consequuntur quasi dolor excepturi, vitae sit quae. Odit voluptates in distinctio soluta nobis nostrum earum! Lorem ipsum dolor sit amet consectetur adipisicing elit. A molestiae blanditiis nam sunt ullam dolore laboriosam, est ipsa numquam praesentium quasi fugit reprehenderit fugiat quod mollitia eum iusto sint nostrum Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat maxime inventore quo delectus nesciunt natus, dicta soluta placeat et necessitatibus debitis ipsum voluptate asperiores molestiae, beatae ipsa amet pariatur possimus! 
+            I don't believe that anybody should feel less than everybody else because of the way they look or the way they are or what they are going through. So thats the message I want to share with the world.
          </p>
           </div>
       </div>
