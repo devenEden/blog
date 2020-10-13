@@ -5,7 +5,7 @@
                 <div class="banner_text">
                     <h1>self_sarang</h1>
                     <p class="welcome_text">
-                        Self love is one of the most greatest things you will ever discover.
+                        Self love is one of the greatest things you will ever discover.
                     </p>
                     <p class="welcome_author"> Jireh Serukenya - Author</p>
                 </div>
